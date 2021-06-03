@@ -60,8 +60,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'SirVer/ultisnips'
     Plug 'tpope/vim-surround'
     Plug 'junegunn/goyo.vim'
+    Plug 'vim-pandoc/vim-pandoc'
 call plug#end()
 
+" remaps spécifiques
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
